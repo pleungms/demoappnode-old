@@ -16,9 +16,9 @@ dev: {
     },
     application: {
         buildid: $BUILD_ID,
-        buildsrcver: $BUILD_SRC_VER,
+        buildsrcver: '$BUILD_SRC_VER',
         builddefver: $BUILD_DEF_VER,
-        systeamprj: $SYS_TEAM_PRJ
+        systeamprj: '$SYS_TEAM_PRJ'
 	}
 },
 prd: {
@@ -28,9 +28,9 @@ prd: {
     },
     application: {
 		buildid: $BUILD_ID,
-		buildsrcver: $BUILD_SRC_VER,
+		buildsrcver: '$BUILD_SRC_VER',
 		builddefver: $BUILD_DEF_VER,
-        systeamprj: $SYS_TEAM_PRJ
+        systeamprj: '$SYS_TEAM_PRJ'
 	}
 },
 };
