@@ -18,8 +18,7 @@ dev: {
 		buildid: $BUILD_ID,
 		buildsrcver: $BUILD_SRC_VER,
 		builddefver: $BUILD_DEF_VER,
-		builduri : $BUILD_URI,
-		buildreponame: $BUILD_REPO_NAME
+        systeamprj: $SYS_TEAM_PRJ
 	}
 },
 prd: {
@@ -31,8 +30,7 @@ prd: {
 		buildid: $BUILD_ID,
 		buildsrcver: $BUILD_SRC_VER,
 		builddefver: $BUILD_DEF_VER,
-        builduri : $BUILD_URI,
-        buildreponame: $BUILD_REPO_NAME
+        systeamprj: $SYS_TEAM_PRJ
 	}
 },
 };
