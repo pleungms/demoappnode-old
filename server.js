@@ -19,7 +19,7 @@ var config = require('./config')[env];
 // All routes
 app.get('/', function (req, res) {
   console.log('http get...');
-  res.send('Hello World! [demoapp using node]');
+  res.send('Hello World! [demoapp using node] | buildid v' + config.application.buildid);
 });
 
 // Create the server listening for http requests

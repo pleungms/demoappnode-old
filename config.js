@@ -13,13 +13,19 @@ dev: {
     //server details
     server: {
         port: '80'
-    }
+    },
+    application: {
+		buildid: $BUILD_ID
+	}
 },
 prd: {
     //server details
     server: {
         port: '80'
-    }
+    },
+    application: {
+		buildid: $BUILD_ID
+	}
 },
 };
 module.exports = config;
