@@ -18,6 +18,7 @@ var config = require('./config')[env];
 
 // All routes
 app.get('/', function (req, res) {
+  console.log('http get...');
   res.send('Hello World! [demoapp using node]');
 });
 
