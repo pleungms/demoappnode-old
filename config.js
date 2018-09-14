@@ -16,7 +16,8 @@ dev: {
     },
     application: {
 		buildid: $BUILD_ID,
-		buildsrcver: $BUILD_SRC_VER
+		buildsrcver: $BUILD_SRC_VER,
+		builduri : $BUILD_URI
 	}
 },
 prd: {
@@ -26,7 +27,8 @@ prd: {
     },
     application: {
 		buildid: $BUILD_ID,
-		buildsrcver: $BUILD_SRC_VER
+		buildsrcver: $BUILD_SRC_VER,
+        builduri : $BUILD_URI
 	}
 },
 };
