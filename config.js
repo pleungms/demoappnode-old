@@ -15,7 +15,8 @@ dev: {
         port: '80'
     },
     application: {
-		buildid: $BUILD_ID
+		buildid: $BUILD_ID,
+		buildsrcver: $BUILD_SRC_VER
 	}
 },
 prd: {
@@ -24,7 +25,8 @@ prd: {
         port: '80'
     },
     application: {
-		buildid: $BUILD_ID
+		buildid: $BUILD_ID,
+		buildsrcver: $BUILD_SRC_VER
 	}
 },
 };
