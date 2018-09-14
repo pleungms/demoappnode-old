@@ -12,7 +12,7 @@ var config = {
 dev: {
     //server details
     server: {
-        port: '8080'
+        port: '80'
     }
 },
 prd: {
