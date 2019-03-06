@@ -1,7 +1,7 @@
 // ############################################################################
 // File Name: server.js
 // Description:
-//  Simple node.js application using express listening to port 80
+//  Simple node.js application using express listening to port 80 (per config)
 // Author: Peter Leung (pleungms@hotmail.com)
 // Modification history
 //  Author         Date       Description
