@@ -28,5 +28,6 @@ app.get('/', function (req, res) {
 
 // Create the server listening for http requests
 app.listen(config.server.port, function () {
+//app.listen(8080, function () {
   console.log('Example app listening on port ' + this.address().port);
 });

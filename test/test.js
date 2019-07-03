@@ -14,7 +14,7 @@ describe("Node Server", function () {
 			});
 		});
 
-		it"returns Hello World", function(done) {
+		it("returns Hello World", function(done) {
 			request.get(base_url, function(error, response, body) {
 				chai.assert.include(body, "Hello World");
 				done();

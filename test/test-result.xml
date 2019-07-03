@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.875" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-07-03T01:22:35" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Node Server" timestamp="2019-07-03T01:22:35" tests="0" file="C:\Users\peleun\MyApps\demoappnode\test\test.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="GET /" timestamp="2019-07-03T01:22:35" tests="2" file="C:\Users\peleun\MyApps\demoappnode\test\test.js" failures="0" time="0.875">
+    <testcase name="Node Server GET / returns status code 200" time="0.442" classname="returns status code 200">
+    </testcase>
+    <testcase name="Node Server GET / returns Hello World" time="0.433" classname="returns Hello World">
+    </testcase>
+  </testsuite>
+</testsuites>
